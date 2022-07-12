@@ -16,7 +16,7 @@ person john;
 
 john.name = "John";
 
-john.age = 27;
+john.age = 48;
 
 printf("%s is %d years old.", john.name, john.age);
 
