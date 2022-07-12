@@ -4,6 +4,8 @@ typedef struct {
 
 char * name;
 
+char * surname;
+
 int age;
 
 } person;
@@ -16,8 +18,12 @@ person john;
 
 john.name = "John";
 
+john.surname = "Smith";
+
 john.age = 48;
 
-printf("%s is %d years old.", john.name, john.age);
+
+
+printf("%s %s is %d years old.", john.name, john.surname, john.age);
 
 }
